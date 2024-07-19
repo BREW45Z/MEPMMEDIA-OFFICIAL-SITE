@@ -1,0 +1,40 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Projects",
+      "url": "/blogs"
+    },
+  
+    {
+      "name": "Contact",
+      "url": "/contact"
+    },
+    {
+      "name": "About Us",
+      "url": "/about"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Support",
+      "menu": [
+        {
+          "text": "About Us",
+          "url": "/about"
+        },
+        {
+          "text": "Privacy Policy",
+          "url": "#"
+        },
+        {
+          "text": "Terms & Conditions",
+          "url": "#"
+        }
+      ]
+    }
+  ]
+}

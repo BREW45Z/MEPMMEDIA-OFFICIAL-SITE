@@ -1,0 +1,36 @@
+{
+  "site": {
+    "title": "MepmMedia Official site",
+    "base_url": "/mepmedia.com",
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "100",
+    "logo_height": "48",
+    "logo_text": "mepmedia logo"
+  },
+
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blogs"
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "Make Inquiries",
+    "link": "/contact"
+  },
+
+  "params": {
+    "contact_form_action": "",
+    "tag_manager_id": "",
+    "footer_content": "MepMedia Multimedia Solutions ltd",
+    "copyright": "Designed and Developed By Michaels Adewale"
+  },
+
+  "metadata": {
+    "meta_author": "MepmMedia Multimedia Solutions Limited",
+    "meta_image": "",
+    "meta_description": "A netxt js project owned by MepmMedia"
+  }
+}
