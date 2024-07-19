@@ -21,6 +21,29 @@ feature:
     icon: "/images/user-clock.svg"
     content: "At MEP Multimedia Solutions Limited, our mission is to deliver exceptional event management solutions that consistently surpass expectations."
 
+
+
+
+list:
+  title: Our Services
+  listings:
+    - name: "Event Management Solutions"
+      icon: "/images/oop.svg"
+      content: "Venue Selection and Booking: This includes researching and scouting venues, negotiating contracts, and securing favorable terms for venue bookings.
+Transport and Accommodation Coordination: MEP Multimedia Solutions Limited can arrange transportation for attendees, speakers, and VIPs, as well as booking convenient lodging.
+Event Setup and Execution: This service includes planning the layout of event spaces, overseeing decoration and technical setup, and ensuring that everything aligns with the client's theme and requirements."
+    - name: "Event Logistics Management"
+      icon: "/images/cta.svg"
+      content: "Equipment Provision: Supplying high-quality audio-visual equipment, including microphones, speakers, projectors, and screens. They can also customize AV setups to meet the specific needs of your event.
+Technical Support: Offering professional technical support to manage equipment setup, operation, and troubleshooting throughout the event. This includes real-time monitoring to ensure smooth operation of all AV components.
+Sound Management: MEP Multimedia Solutions Limited can assess venue acoustics and adjust equipment settings for clear and high-quality sound. They can also coordinate microphone usage to prevent feedback and ensure seamless transitions."
+    - name: "AV Equipment Solutions"
+      icon: "/images/user-clock.svg"
+      content: "Lighting Solutions
+      Ambient Lighting: MEP Multimedia Solutions Limited designs lighting setups to create a desired atmosphere and focus for the event.
+      Stage Lighting: They can install stage lighting to put the spotlight on speakers, performers, or other important areas."
+
+
 # services
 services:
   - title: "Our Journey so far!"
@@ -37,17 +60,8 @@ services:
       enable: true
       label: Check it out
       link: /contact
-
-  - title: "Content Development:"
-    content: "MEP has a great deal of experience in using core messaging of an organization to draft relevant communications materials. We can undertake a review of existing collateral, or if required translate content to different languages as well as build content from scratch."
-    images: 
-      - "/images/service-slide-1.png"
-    button:
-      enable: true
-      label: Make Inquiries
-      link: /contact
   
-  - title: "Event Production:"
+  - title: "We are Precise with Our Delivery!"
     content: "MEP conceptualizes and produces high profile conferences on behalf of clients, including live streams and event footage to use across digital and other communication channels."
     images:
       - "/images/service-slide-11.png"
@@ -58,12 +72,12 @@ services:
       label: Contact us Today!
       link: /contact
 
-  - title: "Perception Studies:"
+  - title: "Collaborating to achieve a common Goal!"
     content: "MEP reaches out to relevant stakeholder groups to gain an unbiased reflection of how a client is perceived amongst its key target audiences and feeds that information back into the strategy development process.
 Research: MEP provides an in-depth research into her client’s markets, activities and target audience."
     images:
-      - "/images/service-slide-5.png"
-      - "/images/service-slide-9.png"
+      - "/images/service-slide-5.jpg"
+      - "/images/service-slide-9.jpggit "
       - "/images/service-slide-8.png"
     button:
       enable: true

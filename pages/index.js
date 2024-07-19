@@ -10,7 +10,7 @@ import "swiper/swiper.min.css";
 import { getListPage } from "../lib/contentParser";
 
 const Home = ({ frontmatter }) => {
-  const { banner, feature, services, workflow, call_to_action } = frontmatter;
+  const { banner, feature, services, workflow, list, call_to_action } = frontmatter;
   const { title } = config.site;
 
   return (
@@ -155,8 +155,39 @@ const Home = ({ frontmatter }) => {
         );
       })}
 
-      {/* workflow */}
-      <section className="section pb-0">
+    
+      <section className="section bg-theme-light">
+        <div className="container">
+          <div className="text-center">
+            <h2>{markdownify(list.title)}</h2>
+          </div>
+          <div className="mt-8 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">
+            {list.listings.map((item, i) => (
+              <div
+                className="feature-card rounded-xl bg-white p-5 pb-8 text-center"
+                key={`feature-${i}`}
+              >
+                {item.icon && (
+                  <Image
+                    className="mx-auto"
+                    src={item.icon}
+                    width={30}
+                    height={30}
+                    alt=""
+                  />
+                )}
+                <div className="mt-4">
+                  {markdownify(item.name, "h3", "h5")}
+                  <p className="mt-3">{item.content}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+        {/* workflow */}
+        <section className="section pb-0">
         <div className="mb-8 text-center">
           {markdownify(
             workflow.title,
@@ -172,6 +203,7 @@ const Home = ({ frontmatter }) => {
           height={296}
         />
       </section>
+
 
       {/* Cta */}
       <Cta cta={call_to_action} />
